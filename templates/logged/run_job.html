@@ -106,20 +106,20 @@
 	  Quality Trimming
 	</label>
 
-	<h4>BLAT against potential contaminants:</h4>
-	<label class="checkbox">
+	<h4 class="hidden"">BLAT against potential contaminants: (UNDER MAINTENANCE ...)</h4>
+	<label class="checkbox hidden"">
 	  <input class="cleaning_steps" type="checkbox" id="univec_reads" name="BLAT_UNIVEC" disabled>
 	  Univec hits
 	</label>
-	<label class="checkbox">
+	<label class="checkbox hidden">
 	  <input class="cleaning_steps" type="checkbox" id="Ecoli_reads" name="BLAT_ECOLI" disabled>
 	  E. coli hits
 	</label>
-	<label class="checkbox">
+	<label class="checkbox hidden">
 	  <input class="cleaning_steps" type="checkbox" id="Scere_reads" name="BLAT_SCERE" disabled>
 	  S. cerevisiae hits
 	</label>
-	<ul class="nav nav-pills" id="custom_blat_reads_db">
+	<ul class="nav nav-pills" id="custom_blat_reads_db" hidden>
 	  <li class="dropdown">
             <a class="dropdown-toggle" id="drop2" role="button" data-toggle="dropdown" href="#">Nucleotide db<b class="caret"></b></a>
 
@@ -448,7 +448,7 @@
 		</div>
 
 		<div class="row">
-		  <div class="control-group span3">
+		  <div class="control-group span3" hidden>
 		    <label class="checkbox">
 		      <div class="controls">
 			<input type="checkbox" id="trinity_option2" name="TRIN_JAC_CLIP">
